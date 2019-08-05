@@ -19,6 +19,10 @@ const createCard=(obj, indx)=>{
     main.appendChild(newCard);
 };
 
+function cap1st(str){
+    return str.replace(str[0], str[0].toUpperCase());
+}
+
 // createCard(first);
 const loopCreate=arr=>{
     for(let i=0; i<arr.length; i++){
