@@ -1,6 +1,10 @@
 // const first = list[0];
 const main=document.querySelector("main");
 
+function cap1st(str){
+    return str.replace(str[0], str[0].toUpperCase());
+}
+
 const createCard=(obj, indx)=>{
     const newCard=document.createElement("div");
     newCard.className="new-card";
@@ -12,16 +16,12 @@ const createCard=(obj, indx)=>{
     face.alt="Portrait";
 
     const name=document.createElement("h1");
-    name.innerText=`${obj.name.title}.`+` ${obj.name.first}`+` ${obj.name.last}`;
+    name.innerText=cap1st(`${obj.name.title}. `)+ cap1st(`${obj.name.first} `)+ cap1st(`${obj.name.last} `);
 
     newCard.appendChild(face);
     newCard.appendChild(name);
     main.appendChild(newCard);
 };
-
-function cap1st(str){
-    return str.replace(str[0], str[0].toUpperCase());
-}
 
 // createCard(first);
 const loopCreate=arr=>{
@@ -35,3 +35,28 @@ const loopCreate=arr=>{
 };
 
 loopCreate(list);
+
+function firNameComp(firNames){
+    return firNames === userFirName;
+};
+
+function firNameCheck(){
+    document.querySelector("#displayFir").innerText = data.filter(firNameComp);
+};
+
+const button = document.querySelector("#submitButton");
+
+button.addEventListener("click", clickListener);
+
+function clickListener(event){
+    event.preventDefault();
+    const inputFirName = document.querySelector("#firstName");
+    const inputLaName = document.querySelector("#lastName");
+    const inputGen = document.querySelector("#gender");
+    console.log(inputFirName);
+    console.log(inputLaName);
+    console.log(inputGen);
+    const userFirName = inputFirName.value;
+    const userLaName = inputLaName.value;
+    const userGen = inputGen.value;
+};
