@@ -1,5 +1,48 @@
 body{
     padding: 0;
     margin: 0;
-};
+}
 
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: red;
+    background-color: #353c51;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.main-element{
+    display: flex;
+    background-color:#353c51;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.new-card{
+    display: flex;
+    width:400px;
+    justify-content:center;
+    align-items:center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px;
+    padding-bottom:7.12px;
+    border: solid 10px #767d92;
+    flex-flow: column wrap;
+    color: #152642;
+    background-color:#506680;
+    font-family: 'Roboto', sans-serif;
+}
+
+img:hover{
+    filter: invert(100%);
+};

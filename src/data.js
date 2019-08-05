@@ -47,7 +47,7 @@ const data = {
     },
     "picture": {
     "large": "https://randomuser.me/api/portraits/men/20.jpg",
-    "medium": "https://randomuser.me/api/portraits/med/men/20.jpg",
+    "medium": "assets/PRIME_SUSPECT.png",
     "thumbnail": "https://randomuser.me/api/portraits/thumb/men/20.jpg"
     },
     "nat": "US"
@@ -99,7 +99,7 @@ const data = {
     },
     "picture": {
     "large": "https://randomuser.me/api/portraits/women/73.jpg",
-    "medium": "https://randomuser.me/api/portraits/med/women/73.jpg",
+    "medium": "assets/SECONDARY_SUSPECT.png",
     "thumbnail": "https://randomuser.me/api/portraits/thumb/women/73.jpg"
     },
     "nat": "NL"
@@ -151,7 +151,7 @@ const data = {
     },
     "picture": {
     "large": "https://randomuser.me/api/portraits/men/46.jpg",
-    "medium": "https://randomuser.me/api/portraits/med/men/46.jpg",
+    "medium": "assets/DONNYSUSPECT.png",
     "thumbnail": "https://randomuser.me/api/portraits/thumb/men/46.jpg"
     },
     "nat": "TR"
@@ -203,7 +203,7 @@ const data = {
     },
     "picture": {
     "large": "https://randomuser.me/api/portraits/women/13.jpg",
-    "medium": "https://randomuser.me/api/portraits/med/women/13.jpg",
+    "medium": "assets/MOESUSPECT.png",
     "thumbnail": "https://randomuser.me/api/portraits/thumb/women/13.jpg"
     },
     "nat": "CH"
@@ -255,7 +255,7 @@ const data = {
     },
     "picture": {
     "large": "https://randomuser.me/api/portraits/men/77.jpg",
-    "medium": "https://randomuser.me/api/portraits/med/men/77.jpg",
+    "medium": "assets/AKINOLASUSPECT.png",
     "thumbnail": "https://randomuser.me/api/portraits/thumb/men/77.jpg"
     },
     "nat": "NL"
