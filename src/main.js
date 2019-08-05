@@ -37,7 +37,7 @@ const loopCreate=arr=>{
 loopCreate(list);
 
 function firNameComp(firNames){
-    return firNames === userFirName;
+    return firNames == userFirName;
 };
 
 function firNameCheck(){
